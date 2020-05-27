@@ -1,0 +1,31 @@
+{
+  "name": "@stcherenkov/json-stub",
+  "version": "0.0.1",
+  "description": "Stub server based on JSON and file system",
+  "main": "cli.js",
+  "bin": {
+    "json-stub": "./cli.js"
+  },
+  "dependencies": {
+    "chokidar": "~3.4.0",
+    "handlebars": "~4.7.6",
+    "js-yaml": "~3.14.0",
+    "koa": "~2.12.0",
+    "lodash": "~4.17.15",
+    "yargs": "~15.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stcherenkov/json-stub.git"
+  },
+  "author": "Stanislav Cherenkov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stcherenkov/json-stub/issues"
+  },
+  "homepage": "https://github.com/stcherenkov/json-stub#readme"
+}
