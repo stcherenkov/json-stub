@@ -21,7 +21,7 @@ First, you should create directory structure that represents your API structure.
 Next you run:
 
 ```
-npx json-stub ./api
+npx json-stub start ./api
 ```
 
 This will start API server on port 3030 that responds to following requests:
